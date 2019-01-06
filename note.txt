@@ -1,0 +1,7 @@
+[1]. Formating USB, suddenly unplug usb from computer
+Find USB device: fdisk -l
+Make dir to store: mdkir /media/usb
+Mount device to disk: mount /dev/sdc /media/usb/
+Error appear: FAT-fs (sdc): Can't find a valid FAT filesystem
+Format the partion: fsck.vfat -f -v /dev/sdc 
+And remount. Finish
