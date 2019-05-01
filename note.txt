@@ -5,3 +5,7 @@ Mount device to disk: mount /dev/sdc /media/usb/
 Error appear: FAT-fs (sdc): Can't find a valid FAT filesystem
 Format the partion: fsck.vfat -f -v /dev/sdc 
 And remount. Finish
+
+[2]  Change account for git in window
+https://stackoverflow.com/questions/47465644/github-remote-permission-denied/47466980#4746698
+In window find "window credential manager"
