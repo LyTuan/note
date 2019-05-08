@@ -17,3 +17,6 @@ In window find "window credential manager"
 
 [4] curl: (60) SSL certificate problem: self signed certificate in certificate chain
     
+
+
+    
