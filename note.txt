@@ -23,7 +23,7 @@ In window find "window credential manager"
     set up proxy:
     Edit  "/etc/systemd/system/docker.service.d/http-proxy.conf":
         [Service]
-        Environment="HTTP_PROXY=http://10.30.118.20:8080/"
+        Environment="HTTP_PROXY=http://127.0.0.1:8080/"
        
 [6] 
 
