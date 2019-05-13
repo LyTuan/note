@@ -25,7 +25,9 @@ In window find "window credential manager"
         [Service]
         Environment="HTTP_PROXY=http://127.0.0.1:8080/"
        
-[6] 
+[6] Check connection 
+    Check port on server: netstart -ntlup
+    Check firewall: iptables-save
 
 
             
