@@ -29,7 +29,17 @@ In window find "window credential manager"
     Check port on server: netstart -ntlup
     Check firewall: iptables-save
 
-
+[7] Install nginx for centos6:
+    nano /etc/yum.repo.d/nginx.repo
+        [nginx]
+        name=nginx repo
+        baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
+        gpgcheck=0
+        enabled=1
+        
+    yum install nginx
+    
+[8]
             
 
     
