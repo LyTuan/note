@@ -79,6 +79,10 @@ In window find "window credential manager"
         gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
 
 
-[9] 
+[9] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+    - Check df -h in Express Server, Syndic Server
+    - Check CA
+    
+    
 
 
