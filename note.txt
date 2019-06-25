@@ -83,5 +83,17 @@ In window find "window credential manager"
     - Check CA
     
     
-
+[10] Install python for linux:
+    - First install gcc ìf you don't have it installed:
+        yum install gcc openssl-devel bzip2-devel   # On CentOS systems 
+        dnf install gcc openssl-devel bzip2-devel   # On Fedora systems 
+    - Second download and etract:
+        cd /usr/src
+        wget https://www.python.org/ftp/python/2.7.16/Python-2.7.16.tgz
+        tar xzf Python-2.7.16.tgz
+    - Third Install python:
+        cd Python-2.7.16
+        ./configure --enable-optimizations
+        make altinstall
+        
 
