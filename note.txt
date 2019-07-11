@@ -97,3 +97,7 @@ In window find "window credential manager"
         make altinstall
         
 
+[11] Exchange directory from C:\ to D:\
+    - cd /d D:\
+    
+  
